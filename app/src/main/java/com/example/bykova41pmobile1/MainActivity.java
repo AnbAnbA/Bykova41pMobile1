@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void selectSort(String st) {
         data = new ArrayList<MI>();
-        listView = findViewById(R.id.BD_Hotel);
+        listView = findViewById(R.id.MI_data);
         pAdapter = new Adapter(MainActivity.this, data);
         try {
             ConnectionHelper connectionHelper = new ConnectionHelper();

@@ -4,5 +4,19 @@
         <item></item>
         <item>по производителю</item>
         <item>по цене</item>
+
     </string-array>
+    <string name="ser">поиск</string>
+    <string name="cl">очистить</string>
+    <string name="tit">Список инструментов</string>
+    <string name="add">добавить</string>
+    <string name="phadd">добавить</string>
+    <string name="Name_of_MI">Наименование</string>
+    <string name="Manufacturers">Производитель</string>
+    <string name="Manufacturer_country">Страна производителя</string>
+    <string name="Price">Цена</string>
+    <string name="addhead">Добавление</string>
+    <string name="uphead">Изменение данных</string>
+    <string name="save">сохранить</string>
+    <string name="del">удалить</string>
 </resources>

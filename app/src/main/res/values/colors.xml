@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="backgroundMain">#558C57</color>
+    <color name="backgroundTable">#70A872</color>
+    <color name="buttonPrint">#387771</color>
+    <color name="buttonAdd">#387771</color>
+    <color name="backgroundAdd">#558C57</color>
+    <color name="buttonAddMI">#387771</color>
+    <color name="buttonBack">#387771</color>
 </resources>

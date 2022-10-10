@@ -11,7 +11,7 @@
         android:layout_marginTop="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Изменение и удаление данных"
+        android:text="@string/uphead"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -35,14 +35,15 @@
         android:id="@+id/upPh"
         android:layout_width="130dp"
         android:layout_height="35dp"
-        android:background="@drawable/btn_color"
+        android:background="@color/buttonAdd"
         android:onClick="OnClickImg"
-        android:text="Выбрать фото"
+        android:text="@string/phadd"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="239dp" />
+        tools:layout_editor_absoluteY="239dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/Name_of_MI"
@@ -52,7 +53,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
         android:gravity="start|top"
-        android:hint="Наименование"
+        android:hint="@string/Name_of_MI"
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -66,12 +67,13 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:gravity="start|top"
-        android:hint="Производитель"
+        android:hint="@string/Manufacturers"
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="373dp" />
+        tools:layout_editor_absoluteY="373dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/Manufacturer_country"
@@ -81,7 +83,7 @@
         android:layout_marginEnd="30dp"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="Страна производителя"
+        android:hint="@string/Manufacturer_country"
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toTopOf="@+id/Price_MI"
         app:layout_constraintEnd_toEndOf="parent"
@@ -95,12 +97,13 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:ems="10"
-        android:hint="Цена"
+        android:hint="@string/Price"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="524dp" />
+        tools:layout_editor_absoluteY="524dp"
+        tools:ignore="MissingConstraints" />
 
     <android.widget.Button
         android:id="@+id/bt_add"
@@ -108,9 +111,9 @@
         android:layout_height="38dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="30dp"
-        android:background="@drawable/btn_color"
+        android:background="@color/buttonBack"
         android:onClick="edit"
-        android:text="Сохранить изменения"
+        android:text="@string/save"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/bt_delete"
@@ -124,9 +127,9 @@
         android:layout_height="38dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="30dp"
-        android:background="@drawable/btn_color"
+        android:background="@color/buttonBack"
         android:onClick="del"
-        android:text="Удалить"
+        android:text="@string/del"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
