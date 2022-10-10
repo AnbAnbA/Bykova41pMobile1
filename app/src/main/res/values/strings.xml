@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bykova41pMobile1</string>
+    <string-array name="spIt">
+        <item></item>
+        <item>по производителю</item>
+        <item>по цене</item>
+    </string-array>
+</resources>
